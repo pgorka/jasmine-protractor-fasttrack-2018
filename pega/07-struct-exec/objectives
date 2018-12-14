@@ -1,0 +1,11 @@
+single spec from command line:
+protractor conf.js --specs /calc/calc.js
+
+single suite:
+protractor conf.js --suite main
+
+exclusion:
+protractor conf.js --suite main --exclude main/main_test.js
+
+//do obczajenia npm test (mocha?)
+
